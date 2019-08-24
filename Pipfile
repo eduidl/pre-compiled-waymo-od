@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+yapf = "*"
+
+[packages]
+jupyter = {extras = ["notebook"],version = "*"}
+matplotlib = "*"
+numpy = "==1.16.4"
+tensorflow = "*"
+
+[requires]
+python_version = "3.6"
